@@ -27,7 +27,15 @@ transmitter gain, receiver gain, radar frequency, radar cross section, and minim
 
    ___Algorithm__:
    
-
+         Set values for power, gain, frequency, speed of light, and other constants. 
+         Calculate wavelength = speed of light ÷ frequency. 
+         Create a list of distances (range). 
+         For each distance: 
+         Calculate received power using the radar formula. 
+         Convert received power to dBm. 
+         Plot received power (dBm) vs. distance. 
+         Invert Y-axis and show the graph. 
+ 
 
 
 
@@ -37,6 +45,7 @@ transmitter gain, receiver gain, radar frequency, radar cross section, and minim
    __Output__:
    
 
+![WhatsApp Image 2025-11-15 at 06 36 30_7974a256](https://github.com/user-attachments/assets/6a62fc8b-03cc-402d-a210-ac463a228d54)
 
 
 
@@ -45,7 +54,7 @@ transmitter gain, receiver gain, radar frequency, radar cross section, and minim
 
    __Result__:
    
-
+Thus,the maximum range of radar system using the radar equation is verified through a pythin program
 
 
 
